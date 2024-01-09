@@ -1,4 +1,4 @@
-FROM python:3.8.0b3-buster
+FROM python:3.10-buster
 WORKDIR /root/
 RUN apt update && \
 		apt upgrade -y && \
